@@ -12,6 +12,15 @@ we can use the pre-trained model in the following two ways
 
 `pip install transformers==3.5.1`
 
+### generating BERT embeddings 
+> chapter3/BERT_embeddings.py
 ## Extracting embeddings from all encoder layers of  BERT 
-
+> chapter3/BERT_embeddings_allencoder.py
 ## Fine-tuning BERT for downstream tasks 
+how to fine-tune the pre-trained BERT model for the following downstream tasks 
+- Text classification
+- Natural language inference 
+- NER 
+- Question-answering 
+  
+> BERT_sentiment analysis情感分析.py
