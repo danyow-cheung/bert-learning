@@ -29,3 +29,14 @@ print(summary)
 
 ## Building a document answering model 
 > chap_9_ktrain_document_answering.py
+>
+## Document summarization
+> chap9_document_summarization.py
+>
+## Bert-as-service 
+### computing sentence represstation
+> chap9_sentence_representation.py
+>
+### Computing contextual word represstation
+> chap9_contextual_representation.py
+>
