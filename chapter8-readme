@@ -1,0 +1,14 @@
+# Exploring Sentence and Domain-Specific BERT 
+## Computing sentence similarity
+```python
+import scipy 
+from sentence_transformers import SentenceTransformer,util 
+
+model = SentenceTransformer('bert-base-nil-mean-tokens')
+sentence1 = 'It was a great day'
+sentence2 = 'Today was awesome'
+sentence1_repression = model.encode(sentence1)
+sentence2_repression = model.encoder(sentence2)
+consine_sim =    util.pytorch_cos_sim(sentence1_representation,sentence2_representation)
+print(consine_sim)
+```
